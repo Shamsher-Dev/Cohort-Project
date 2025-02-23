@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Review Callecter Project</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="nav">
+        <h1>Review Page</h1>
+        <div class="mode">
+          <button><i class="bx bx-sun"></i></button>
+          <button><i class="bx bxs-moon"></i></button>
+        </div>
+      </div>
+      <div class="reviewBox">
+        <div class="user-review">
+          <form action="">
+            <label for="userName">Name</label>
+            <input
+              type="text"
+              value=""
+              id="userName"
+              placeholder="Enter Your Name"
+              required
+            />
+
+            <label for="user-box">Review </label>
+            <textarea
+              name=""
+              id="user-box"
+              placeholder="Write your review here..."
+              required
+            ></textarea>
+            <div class="review-btn">
+              <p>Rate Us</p>
+              <div class="star">
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+              </div>
+            </div>
+            <div class="form-btn">
+              <button class="btn" id="submit">Submit</button>
+              <button class="btn" id="clear">Clear</button>
+            </div>
+          </form>
+        </div>
+        <div class="show-review">
+          <ul class="client-review">
+            <!-- <li class="client"> -->
+            <!-- <h1>client name</h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Quibusdam dolorem voluptate sit perspiciatis vitae neque,
+                consequuntur quisquam a, nihil eum quod aspernatur dolores aut
+                assumenda obcaecati molestias accusamus ea adipisci.
+              </p>
+              <div class="client-rate">
+                <p>Rating</p>
+              </div>
+             </li>
+           <li class="client"></li>
+            <li class="client"></li> -->
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <script src="Index.js"></script>
+  </body>
+</html>
